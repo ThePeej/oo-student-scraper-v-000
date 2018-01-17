@@ -8,6 +8,8 @@ class Scraper
     student = {}
 
     student[:name] = doc.css("")
+    student[:location] = doc.css("")
+    student[:prorfile_url] = doc.css("")
 
 
   end
