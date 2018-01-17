@@ -11,7 +11,6 @@ class Scraper
     student[:location] = doc.css("")
     student[:prorfile_url] = doc.css("")
 
-
   end
 
   def self.scrape_profile_page(profile_url)
