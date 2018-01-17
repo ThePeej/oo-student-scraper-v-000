@@ -7,7 +7,7 @@ class Scraper
     doc = Nokogiri::HTML(open(index_url))
     student = {}
     # binding.pry
-    student[:name] = doc.css("")
+    student[:name] = doc.css(".student-name")
     student[:location] = doc.css("")
     student[:prorfile_url] = doc.css("")
 
